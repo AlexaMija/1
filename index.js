@@ -1,1 +1,2 @@
-import {function.js} from "./function.js"
+import { function } from "function.js"
+node index.js
