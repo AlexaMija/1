@@ -4,10 +4,11 @@ manji ili jednak sa max. Sme da primi samo broj, Potrebno je validirati
 ulazne parametre, ispisati gresku*/
 var result = " "
 function random(min, max) {
+  if (typeof != number) {
+  return "Error! It's not a number!"
+  }
 return Math.floor(Math.random() * (max - min + 1) + min);
-if (val !== num ) {
   return result
-}
 }
 console.log(random(num))
 /*Potrebno je vratiti najmanji broj koji se nalazi u nizu (array.length >5)
